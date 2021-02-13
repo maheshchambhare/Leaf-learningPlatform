@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #303a52;
+  height: 100vh;
+  width: 100%;
+}
+
+body header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 50px;
+  background-color: #574b90;
+  -webkit-box-shadow: 0 10px 10px #24222234;
+          box-shadow: 0 10px 10px #24222234;
+}
+
+body header .logo {
+  font-family: "Poppins", sans-serif;
+  background: -webkit-gradient(linear, left top, right top, from(#ffd343), to(#71f519));
+  background: linear-gradient(to right, #ffd343, #71f519);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body header nav {
+  width: 50%;
+}
+
+body header .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+body header .nav-links .links {
+  text-decoration: none;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 80vh;
+}
+/*# sourceMappingURL=home.css.map */
