@@ -11,10 +11,15 @@ const Maincont = styled.div`
 `;
 
 const ValueContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 55%;
   background-color: #434f6d;
   border-radius: 10px;
+
+  h1 {
+  }
 `;
 const OutputContainer = styled.div`
   height: 100%;
@@ -32,16 +37,22 @@ const Lable = styled.label`
   color: #fff;
 `;
 
+const RadioContainer = styled.div`
+  display: flex;
+
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+`;
+
 export default function css3() {
   return (
     <Maincont>
       <ValueContainer>
-        <Radio type="radio" value="display : flex;" name="displayFlex" />
-        <Lable for="displayFlex">display : flex;</Lable>
-        <Radio type="radio" value="display : flex;" name="displayFlex" />
-        <Lable for="displayFlex">display : flex;</Lable>
-        <Radio type="radio" value="display : flex;" name="displayFlex" />
-        <Lable for="displayFlex">display : flex;</Lable>
+        <RadioContainer>
+          <Radio type="radio" value="display : flex;" name="displayFlex" />
+          <Lable for="displayFlex">display : flex;</Lable>
+        </RadioContainer>
       </ValueContainer>
 
       <OutputContainer></OutputContainer>
