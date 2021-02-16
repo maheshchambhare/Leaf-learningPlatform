@@ -8,3 +8,6 @@
 ## 14/02/2021 :-
 
 ## Learning about react native app development cause i got a project from client to build a android app using google map's API so was busy reading the documentation.
+
+
+##  16/02/2021 :- Stuck Bacause i haven't plan how to aproach this project so today i will plan and have clear idea what i need to do to achieve the goal
